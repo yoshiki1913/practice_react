@@ -1,6 +1,7 @@
 function App() {
+  const greeting = "Hi Tom";
   return (
-    <h1>HelloWorld</h1>
+  <h1 className="foo">{greeting}</h1>
   );
 }
 
